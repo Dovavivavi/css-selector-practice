@@ -5,54 +5,54 @@ body>div{
     background: aqua;
 }
 
-div>div {
+div>div{
     width: 90vw;
     height: 90vh;
     background-color: yellow;
 }
 
-div>div>div {
+div>div>div{
     width: 80vw;
     height: 80vh;
     background-color: blue;
 }
 
-div>div>div>div {
+div>div>div>div{
     width: 70vw;
     height: 70vh;
     background: black;
 }
 
-div>div>div>div>div {
+div>div>div>div>div{
     width: 60vw;
     height: 60vh;
     background-color: brown;
 }
 
-div>div>div>div>div>div {
+div>div>div>div>div>div{
     width: 50vw;
     height: 50vh;
     background-color: white;
 }
-div>div>div>div>div>div>div {
+div>div>div>div>div>div>div{
     width: 40vw;
     height: 40vh;
     background-color: purple;
 }
 
-div>div>div>div>div>div>div>div {
+div>div>div>div>div>div>div>div{
     width: 30vw;
     height: 30vh;
     background-color: olivedrab;
 }
 
-div>div>div>div>div>div>div>div>div {
+div>div>div>div>div>div>div>div>div{
     width: 20vw;
     height: 20vh;
     background-color: green;
 }
 
-div>div>div>div>div>div>div>div>div>div {
+div>div>div>div>div>div>div>div>div>div{
     width: 10vw;
     height: 10vh;
     background-color: orangered;
@@ -68,6 +68,12 @@ div>div>div>div>div>div>div>div>div>div {
 
 .circle{
     border-radius: 50%;
+}
+
+.most-inner{
+    position: absolute;
+    left: 100px;
+    top: 100px;
 }
 
 .most-outer .inner{
